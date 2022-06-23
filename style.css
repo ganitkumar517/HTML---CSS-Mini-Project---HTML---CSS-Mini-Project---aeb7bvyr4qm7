@@ -1,0 +1,94 @@
+.img1{
+    background-image: url(https://images.pexels.com/photos/3476860/pexels-photo-3476860.jpeg);
+    min-height: 100%;
+}
+.img2{
+   background-image: url(https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+  min-height: 400px; 
+}
+.img3{
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/25/08/54/lamps-1107447_960_720.jpg);
+    min-height: 400px; 
+}
+.img1,.img2,.img3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* padding: 0% 0% 100% 0%; */
+    
+    
+}
+.border{
+          text-align: center;
+          text-transform: uppercase;
+          /* background-color: black; */
+          color: white;
+          font-size: 27px;
+          letter-spacing: 8px;
+          position: absolute;
+          top: 50%;
+          width: 100%;
+}
+.text{
+    background-color: black;
+    padding: 20px 70px;
+}
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+    width: 100%;
+    
+}
+div{
+    display: block;
+}
+.heading{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.p1, .p2, .p3{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.ptext,.border.trans{
+    background-color: transparent; 
+    
+}
+.section-one{
+    background-image: url(https://t4.ftcdn.net/jpg/03/73/01/57/240_F_373015757_5bjC8yQOoViO1BbFR7bd8LKa3l3ijj4f.jpg);
+    padding: 20px 50px;
+}
+.section-two{
+  background-image:linear-gradient(to right,rgb(213, 112, 10),white,green);
+    padding: 20px 50px;
+
+}
+.section-three{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7NFOYjIQV_M08pBtqAVIge_0yOhGy-_ggSw&usqp=CAU);
+    padding: 20px 50px;
+}
+.section{
+    padding: 50px 80px;
+}
